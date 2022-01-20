@@ -2,7 +2,6 @@
 #include <string>
 
 using namespace std;
-
 unsigned short height;
 
 
@@ -71,6 +70,6 @@ int main() {
 	WritePersonData(age, name, "", "", std::to_string(salary));
 
 	ReadPersonData(name, age, height, weight);
-	WritePersonData(age, name, std::to_string(height), std::to_string(weight), "");
+	WritePersonData(age, name, std::to_string(height), std::to_string(weight));
 	return 0;
 }
